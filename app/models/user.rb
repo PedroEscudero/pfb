@@ -7,7 +7,7 @@ class User < ApplicationRecord
   validates :level, presence: true, numericality: { greater_than: -1 }
   validates :coins, presence: true, numericality: { greater_than: -1 }
 
-  def increment_coins(amount,reason)
+  def increment_coins(amount, reason)
   	change_coins(amount, reason)
   end
 
