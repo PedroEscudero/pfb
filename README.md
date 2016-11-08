@@ -1,10 +1,10 @@
 # Pedro Escudero Zumel
 
-== Instalation
+## Instalation
 
 It should work in any Rails 5 allowed environment, but just in case I have use Vagrant installation. The vagrantfile is included.
 
-== Methods
+## Methods
 
 user.increment_coins(amount, reason)
 
@@ -12,12 +12,12 @@ user.decrement_coins(amount, reason)
 
 user.reset_coins
 
-== Models
+## Models
 
 I have added a Transaction model for storing the transactions.
 
 
-== Test
+## Test
 
 All new methods have test and also the new model.
 
